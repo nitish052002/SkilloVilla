@@ -1,0 +1,22 @@
+.search_wrapper {
+  background: var(--secondary);
+  border-radius: 60px;
+  padding: 12px 28px;
+  width: 600px;
+}
+
+.search_wrapper input {
+  background: transparent;
+  color: white;
+}
+
+.search_wrapper input::placeholder {
+  color: white;
+}
+
+@media screen and (max-width: 650px) {
+  .search_wrapper {
+    margin-top: 10px;
+    
+  }
+}
